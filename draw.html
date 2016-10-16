@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        #penal {
+            width: 800px;
+            height: 800px;
+        }
+        #bg{
+            width: 800px;
+            height: 800px;
+            background: #cccccc;
+        }
+    </style>
+    <script src="draw.js"></script>
+</head>
+<body>
+    <div id="select">
+        <button id="pen">铅笔</button>
+        <button id="line">直线</button>
+        <button id="rect">矩形</button>
+        <button id="arc">圆形</button>
+        <button id="robber">橡皮檫</button>
+        <button id="img">图片</button>
+        <button id="save">保存</button>
+        <input type="file" id="file" name="img" style="display: none"/>
+        <input type="color" id="color"/>
+        <input type="number" id="lineWidth"/>
+    </div>
+    <!--<canvas id="big" width="800" height="800">-->
+
+
+    <div id="bg">
+        <canvas id="penal" width="800" height="800"></canvas>
+    </div>
+    <!--</canvas>-->
+
+</body>
+</html>
